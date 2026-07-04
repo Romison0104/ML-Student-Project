@@ -1,7 +1,5 @@
-streamlit
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-pickle-mixin
+streamlit==1.39.0
+scikit-learn==1.6.1
+pandas==2.2.2
+numpy==2.0.2
+pyarrow==17.0.0
