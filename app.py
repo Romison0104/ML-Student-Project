@@ -73,7 +73,7 @@ st.markdown("---")
 # ============================================================
 # Prediction
 # ============================================================
-if st.button("🔮 Predict Subscription", width="stretch"):
+if st.button("🔮 Predict Subscription", use_container_width=True):
 
     # Build input row matching training features
     input_dict = {col: 0.0 for col in feature_names}
@@ -178,7 +178,7 @@ if st.button("🔮 Predict Subscription", width="stretch"):
                 str(call_response_score)
             ]
         })
-        st.dataframe(summary, width="stretch", hide_index=True)
+        st.dataframe(summary, use_container_width=True, hide_index=True)
 
 # ============================================================
 # Footer
